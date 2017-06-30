@@ -17,7 +17,9 @@ const fruitTypesMap = {
   tangerine: 'citrus',
   cherries: 'drupe',
   peach: 'drupe',
-  pineapple: 'other'
+  pineapple: 'other',
+  avocado: 'berry',
+  cucumber: 'berry'
 };
 
 let frujis = _.pickBy(emoji.lib, x => {
